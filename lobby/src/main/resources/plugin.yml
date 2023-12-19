@@ -1,0 +1,6 @@
+name: "microbattles-lobby"
+author: "emmily"
+authors: [ "NasgarNetwork" ]
+version: ${project.version}
+main: "online.nasgar.microbattles.lobby.MicroBattlesLobbyPlugin"
+depend: [ "microbattles-loader" ]

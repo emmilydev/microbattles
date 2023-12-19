@@ -1,0 +1,39 @@
+scoreboard:
+  match:
+    title: "&e&lMICROBATTLES"
+    lines:
+      pre-teams:
+        - "%%space%%"
+      team-format:
+        white: "&c&lW"
+        orange: "&6&lO"
+        magenta: "&d&lM"
+        light_blue: "&9&lB"
+        yellow: "&e&lY"
+        lime: "&a&lL"
+        pink: "&d&lP"
+        gray: "&8&lG"
+        silver: "&7&lS"
+        cyan: "&3&lC"
+        purple: "&5&lP"
+        blue: "&1&lB"
+        brown: "&4&lB"
+        green: "&a&lG"
+        red: "&c&lR"
+        black: "&0&lB"
+      player-format: "%team% &f%name%"
+      post-teams:
+        - "%%space%%"
+      footer: "nasgar.online"
+  waiting:
+    title: "&e&lMICROBATTLES"
+    lines:
+      - "%%space%%"
+      - "Mapa: &a%arena%"
+      - "Jugadores: &a%current-players%/%max-players%"
+      - "%%space%%"
+      - "Fase: &a%phase%"
+      - "Modo: &a%mode%"
+      - "Versión: &a%version%"
+      - "%%space%%"
+    footer: "nasgar.online"

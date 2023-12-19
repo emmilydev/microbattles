@@ -1,0 +1,48 @@
+command:
+  lobby:
+    help:
+      - "&3/match &7- &bInformation about match commands"
+      - "&3/profile &7- &bInformation about profile commands"
+  match:
+    help:
+      - "&3/match list &7- &bOpens the matches menu"
+      - "&3/match join &a<match> &7- &bJoin as player or spectator to the given match"
+  profile:
+    help:
+      - "&3/profile &a<user> &7- &bOpens the profile of the given user"
+      - "&3/profile edit &7- &bOpens the profile edition menu"
+kit:
+  defaults:
+    lobby:
+      items:
+        play:
+          name: "&bPlay"
+          lore:
+            - "&7Click &e&lhere"
+            - "&7to open the"
+            - "&7matches menu!"
+        party:
+          name: "&bParty"
+          lore:
+            - "&7Click &e&lhere"
+            - "&7to open the"
+            - "&7party menu!"
+        kits:
+          name: "&bKits"
+          lore:
+            - "&7Click &e&lhere"
+            - "&7to open the"
+            - "&7kits menu!"
+        profile:
+          name: "&bProfile"
+          lore:
+            - "&7Click &e&lhere"
+            - "&7to open the"
+            - "&7profile menu!"
+match:
+  error:
+    retrieving-match: "&cAn error has occurred while trying to find that match!"
+  not-found: "&cThat match doesn't exist!"
+profile:
+  error:
+    opening-menu: "&cAn error has occurred while opening the profile!"

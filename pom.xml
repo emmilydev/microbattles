@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>online.nasgar.microbattles</groupId>
+  <artifactId>micro-battles</artifactId>
+  <version>0.2.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <properties>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
+    <rel>online.nasgar.microbattles.loader</rel>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>nms-repo</id>
+      <url>https://repo.codemc.io/repository/nms/</url>
+    </repository>
+    <repository>
+      <id>maven-public</id>
+      <url>https://repo.codemc.io/repository/maven-public/</url>
+    </repository>
+    <repository>
+      <id>unnamed-public</id>
+      <url>https://repo.unnamed.team/repository/unnamed-public/</url>
+    </repository>
+    <repository>
+      <id>cloudnet-releases</id>
+      <url>https://repo.cloudnetservice.eu/repository/releases/</url>
+    </repository>
+    <repository>
+      <id>cloudnet-snapshots</id>
+      <url>https://repo.cloudnetservice.eu/repository/snapshots/</url>
+    </repository>
+    <repository>
+      <id>spigot-repo</id>
+      <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+    </repository>
+  </repositories>
+
+  <modules>
+    <module>api</module>
+    <module>commons</module>
+    <module>plugin</module>
+    <module>lobby</module>
+    <module>setup</module>
+    <module>adapt/adapt-v1_8_R3</module>
+    <module>adapt/adapt-v1_18_R2</module>
+      <module>loadaer</module>
+  </modules>
+</project>

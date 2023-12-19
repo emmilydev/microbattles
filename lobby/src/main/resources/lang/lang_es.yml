@@ -1,0 +1,48 @@
+command:
+  lobby:
+    help:
+      - "&3/match &7- &bInformación sobre los comandos de partidas"
+      - "&3/profile &7- &bInformación sobre los comandos del perfil"
+  match:
+    help:
+      - "&3/match list &7- &bAbre el menú de partidas"
+      - "&3/match join &a<match> &7- &bEntra como jugador o espectador a la partida especificada"
+  profile:
+    help:
+      - "&3/profile &a<user> &7- &bAbre el perfil del usuario especificado"
+      - "&3/profile edit &7- &bAbre el menú de edición de tu perfil"
+kit:
+  defaults:
+    lobby:
+      items:
+        play:
+          name: "&bJugar"
+          lore:
+            - "&7¡Haz &e&lclic aquí"
+            - "&7para abrir el menú"
+            - "&7de partidas!"
+        party:
+          name: "&bFiesta"
+          lore:
+            - "&7¡Haz &e&lclic aquí"
+            - "&7para abrir el menú"
+            - "&7de fiesta!"
+        kits:
+          name: "&bKits"
+          lore:
+            - "&7¡Haz &e&lclic aquí"
+            - "&7para abrir el menú"
+            - "&7de kits!"
+        profile:
+          name: "&bPerfil"
+          lore:
+            - "&7¡Haz &e&lclic aquí"
+            - "&7para abrir el menú"
+            - "&7de tu perfil!"
+match:
+  error:
+    retrieving-match: "&c¡Ha ocurrido un error mientras estábamos buscando esa partida!"
+  not-found: "&c¡Esa partida no existe!"
+profile:
+  error:
+    opening-menu: "&c¡Ha ocurrido un error mientras estábamos abriendo el perfil!"

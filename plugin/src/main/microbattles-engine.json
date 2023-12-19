@@ -1,0 +1,22 @@
+{
+  "mongoCredentials": {
+    "username": "",
+    "password": "",
+    "host": "localhost",
+    "port": 27017,
+    "database": "mb"
+  },
+  "redisCredentials": {
+    "username": "",
+    "password": "",
+    "host": "localhost",
+    "port": 6379,
+    "database": ""
+  },
+  "fallingBlocksConfiguration": [],
+  "wallsBreakDelay": 5,
+  "startCountdown": 5,
+  "serviceName": "uwu",
+  "defaultLanguage": "es",
+  "modelsMeta": {}
+}

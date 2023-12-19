@@ -1,0 +1,5 @@
+name: "microbattles-loader"
+author: "emmily"
+authors: [ "NasgarNetwork" ]
+version: ${project.version}
+main: "online.nasgar.microbattles.loader.MicroBattlesLoaderPlugin"
